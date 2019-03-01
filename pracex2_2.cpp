@@ -32,15 +32,15 @@ int main(){
 		i++;
 	}
 	sort(a,20);
-	for(int i = 0; i < 20;i++){
+	/*for(int i = 0; i < 20;i++){
 		b[i]=i+1+k;
 		while(a[i]=a[i+1]){
 			b[i]=b[i+1];
 			k++;
 		}
 	}
-	for(int i=0;i<20;i++){
-		dest << a[i] << "=" << b[i] << "\n";
+	*/for(int i=0;i<20;i++){
+	dest << a[i] << "\n"; //<< "=" << b[i] << 
 	}
 	dest.close();
 	return 0;
